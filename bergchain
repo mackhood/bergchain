@@ -4,6 +4,13 @@ object vonLukaz
  var diversion = 70
  var colorRopa = "blanca"
  var edad = 17
+  method devolverRopa(){
+  return ropa
+ }
+  method devolverEdad(){
+  return edad
+  }
+ 
 }
 
 object bianker
