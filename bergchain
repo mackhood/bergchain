@@ -10,6 +10,11 @@ object vonLukaz
   method devolverEdad(){
   return edad
   }
+  
+  method modificarEnergia(cantidad){
+  energia -=cantidad
+  }
+  
  
 }
 
