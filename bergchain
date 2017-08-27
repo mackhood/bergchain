@@ -15,6 +15,11 @@ object vonLukaz
   energia -=cantidad
   }
   
+  method modificarDiversion (cantidad) {
+  diversion -=cantidad
+  }
+  
+  
  
 }
 
@@ -32,6 +37,14 @@ object bianker
   return ropa
   }
   
+    method modificarEnergia(cantidad){
+  energia -=cantidad
+  }
+  
+  method modificarDiversion (cantidad) {
+  diversion -=cantidad
+  }
+  
 }
 
 object gonzen
@@ -47,5 +60,15 @@ object gonzen
   method devolverRopa(){
   return ropa
   }
+ 
+   method modificarEnergia(cantidad){
+  energia -=cantidad
+  }
+  
+  method modificarDiversion (cantidad) {
+  diversion -=cantidad
+  }
+ 
+ 
  
 }
