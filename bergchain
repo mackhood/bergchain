@@ -19,6 +19,14 @@ object bianker
  var diversion = 80
  var colorRopa = "negro"
  var edad = 22
+ 
+ method devolverEdad(){
+ return edad
+ }
+  method devolverRopa(){
+  return ropa
+  }
+  
 }
 
 object gonzen
@@ -27,4 +35,12 @@ object gonzen
  var diversion = 15
  var colorRopa = "negro"
  var edad =33
+ 
+  method devolverEdad(){
+ return edad
+ }
+  method devolverRopa(){
+  return ropa
+  }
+ 
 }
