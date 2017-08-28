@@ -117,4 +117,9 @@ object gonzen
  method djTommy(persona){
  persona.modificarEnegia(-80)
   }
+  
+  object club {
+  method entrar(persona,patova){
+ return patova.puedePasarPersona(persona)
+ }
 }
