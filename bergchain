@@ -113,6 +113,10 @@ object gonzen
   method bailenTodos(){
   genteFiesteraMain.map({persona => persona.bailar()})
   }
+  
+   method bailaGozen(){
+  retun genteFiesteraMain.contains(gozen)
+  }
   }
   
   object panoramaBar {
@@ -141,6 +145,10 @@ object gonzen
   }
   method cantPersonas(){
   return genteFiesteraPanorama.size()
+  }
+  method bailaGozen(){
+  retun genteFiesteraPanorama.contains(gozen)
+  }
   }
   
   object club {
