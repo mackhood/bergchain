@@ -115,7 +115,7 @@ object gonzen
   }
   
    method bailaGozen(){
-  retun genteFiesteraMain.contains(gozen)
+  return genteFiesteraMain.contains(gozen)
   }
   }
   
@@ -147,7 +147,7 @@ object gonzen
   return genteFiesteraPanorama.size()
   }
   method bailaGozen(){
-  retun genteFiesteraPanorama.contains(gozen)
+  return genteFiesteraPanorama.contains(gozen)
   }
   }
   
