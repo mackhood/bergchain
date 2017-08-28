@@ -74,6 +74,17 @@ object gonzen
  persona.devolverEdad()>=21
  }
  
- object 
+  object rodrigsen{
+  method puedePasarPersona(persona){
+  return persona.devolverRopa()=="negro"
+  }
+  }
+  
+    
+  object gustavotruccensen{
+  method puedePasarPersona(persona){
+  return false
+  }
+  
  
 }
