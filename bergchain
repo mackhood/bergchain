@@ -69,6 +69,11 @@ object gonzen
   diversion +=cantidad
   }
  
+ object rochenzen{
+ method puedePasarPersona(persona){
+ persona.devolverEdad()>=21
+ }
  
+ object 
  
 }
