@@ -19,6 +19,9 @@ object vonLukaz
   diversion +=cantidad
   }
   
+  method energia(cantidad){
+  energia=cantidad
+  }
   
  
 }
@@ -45,6 +48,10 @@ object bianker
   diversion +=cantidad
   }
   
+    method energia(cantidad){
+  energia=cantidad
+  }
+  
 }
 
 object gonzen
@@ -67,6 +74,10 @@ object gonzen
   
   method modificarDiversion (cantidad) {
   diversion +=cantidad
+  }
+    method energia(cantidad){
+  energia=cantidad
+  }
   }
  
  object rochenzen{
@@ -100,6 +111,10 @@ object gonzen
   persona.aumentarDiversion(120)
   }
    method djMarcel(persona){
-   
-  
+   persona.energia(0)
+    persona.modificarDiversion(1000)
+ }
+ method djTommy(persona){
+ persona.modificarEnegia(-80)
+  }
 }
