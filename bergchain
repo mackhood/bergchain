@@ -99,13 +99,15 @@ object gonzen
   }
   
    object mainRoom{
+   var genteFiesteraMain=#{}
   method bailar(persona){
   persona.modificarEnergia(-40)
   persona.modificarDiversion(30)
-  
+  method
   }
   
   object panoramaBar {
+  var genteFiesteraPanorama=#{}
   method djDixon(persona){
   persona.modificarEnergia(-60)
   persona.aumentarDiversion(120)
