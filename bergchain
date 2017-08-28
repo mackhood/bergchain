@@ -104,13 +104,21 @@ object gonzen
   persona.modificarEnergia(-40)
   persona.modificarDiversion(30)
  method agregarPersona(persona){
- getenFiesteraMain.add(persona)
+ genteFiesteraMain.add(persona)
+ 
+  method cantPersonas(){
+  return genteFiesteraMain.size()
+  }
  }
-  
+  method bailenTodos(){
+  genteFiesteraMain.map({persona => persona.bailar()})
+  }
   }
   
   object panoramaBar {
   var genteFiesteraPanorama=#{}
+  method bailar(persona){
+  
   method djDixon(persona){
   persona.modificarEnergia(-60)
   persona.aumentarDiversion(120)
@@ -122,10 +130,17 @@ object gonzen
  method djTommy(persona){
  persona.modificarEnegia(-80)
   }
+  }
   
   method agregarPersona(persona){
   genteFiesteraPanorama.add(persona)
   }
+  
+  method bailenTodos(){
+  genteFiesteraPanorama.map({persona => persona.bailar()})
+  }
+  method cantPersonas(){
+  return genteFiesteraPanorama.size()
   }
   
   object club {
