@@ -103,7 +103,10 @@ object gonzen
   method bailar(persona){
   persona.modificarEnergia(-40)
   persona.modificarDiversion(30)
-  method
+ method agregarPersona(persona){
+ getenFiesteraMain.add(persona)
+ }
+  
   }
   
   object panoramaBar {
@@ -118,6 +121,11 @@ object gonzen
  }
  method djTommy(persona){
  persona.modificarEnegia(-80)
+  }
+  
+  method agregarPersona(persona){
+  genteFiesteraPanorama.add(persona)
+  }
   }
   
   object club {
