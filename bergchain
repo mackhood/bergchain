@@ -78,7 +78,8 @@ object gonzen
   method puedePasarPersona(persona){
   return persona.devolverRopa()=="negro"
   }
-  }
+  
+
   
     
   object gustavotruccensen{
@@ -86,5 +87,19 @@ object gonzen
   return false
   }
   
- 
+   object mainRoom{
+  method bailar(persona){
+  persona.modificarEnergia(-40)
+  persona.modificarDiversion(30)
+  
+  }
+  
+  object panoramaBar {
+  method djDixon(persona){
+  persona.modificarEnergia(-60)
+  persona.aumentarDiversion(120)
+  }
+   method djMarcel(persona){
+   
+  
 }
