@@ -12,11 +12,11 @@ object vonLukaz
   }
   
   method modificarEnergia(cantidad){
-  energia -=cantidad
+  energia +=cantidad
   }
   
   method modificarDiversion (cantidad) {
-  diversion -=cantidad
+  diversion +=cantidad
   }
   
   
@@ -38,11 +38,11 @@ object bianker
   }
   
     method modificarEnergia(cantidad){
-  energia -=cantidad
+  energia +=cantidad
   }
   
   method modificarDiversion (cantidad) {
-  diversion -=cantidad
+  diversion +=cantidad
   }
   
 }
@@ -62,11 +62,11 @@ object gonzen
   }
  
    method modificarEnergia(cantidad){
-  energia -=cantidad
+  energia +=cantidad
   }
   
   method modificarDiversion (cantidad) {
-  diversion -=cantidad
+  diversion +=cantidad
   }
  
  
